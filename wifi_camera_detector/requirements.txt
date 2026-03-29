@@ -1,0 +1,18 @@
+# WiFi摄像头检测工具 - 依赖包列表
+
+# GUI框架（Python内置，无需安装）
+# tkinter
+
+# 网络扫描
+scapy>=2.4.5
+
+# 视频流检测
+opencv-python>=4.5.0
+
+# 图像处理（OpenCV依赖）
+Pillow>=8.0.0
+
+# 可选依赖（增强功能）
+# python-nmap>=0.7.1  # nmap扫描支持
+# requests>=2.25.0    # HTTP请求
+# mac-vendor-lookup>=0.1.11  # MAC厂商查询
